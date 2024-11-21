@@ -6,3 +6,18 @@
     text-decoration: line-through;
     color: gray;
 }
+
+.tableActions {
+    width: 105px;
+}
+
+.todoForm {
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+    .btn-respo {
+        margin-top: 6px;
+    }
+    
+}
