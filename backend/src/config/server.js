@@ -1,4 +1,4 @@
-const port = 3003;
+const port = process.env.PORT || 3003; 
 
 const express = require('express');
 const server = express();
@@ -8,8 +8,12 @@ server.use(express.urlencoded({ extended: true }));
 server.use(express.json());
 server.use(allowCors);
 
-server.listen(port, () => {
+const serverInstance = server.listen(port, '0.0.0.0', () => {
     console.log(`BACKEND is running on port ${port}.`);
 });
+
+// Aumentar os timeouts
+serverInstance.keepAliveTimeout = 120000; // 120 segundos
+serverInstance.headersTimeout = 120000; // 120 segundos
 
 module.exports = server;
