@@ -1,41 +1,79 @@
-<h1 align="center">Projeto To-do List (Lista de Tarefas)</h1>
+<h1>Todo App 📝</h1>
 
-###
+<img src="https://i.ibb.co/0ZLq1YF/todolist.png" alt="Todo App" width="600">
 
-<div align="center">
-  <img height="550" src="https://i.ibb.co/0ZLq1YF/todolist.png"  />
-</div>
+<p>
+  Bem-vindo ao <strong>Todo App</strong>, uma aplicação de gerenciamento de tarefas desenvolvida com uma arquitetura full-stack moderna. Este projeto foi criado para demonstrar a integração entre um backend robusto e um frontend dinâmico, utilizando tecnologias amplamente adotadas no mercado.
+</p>
 
-###
+<h2>🚀 Tecnologias Utilizadas</h2>
+<h3>Backend</h3>
+<ul>
+  <li><strong>Node.js</strong> com <strong>Express</strong>: API RESTful para operações de CRUD.</li>
+  <li><strong>MongoDB</strong>: Banco de dados NoSQL para armazenamento das tarefas.</li>
+  <li><strong>Mongoose</strong>: Modelagem de dados no MongoDB.</li>
+  <li><strong>Cors</strong>: Configuração para permitir o acesso do frontend ao backend.</li>
+</ul>
 
-<h3 align="left">To-do List</h3>
+<h3>Frontend</h3>
+<ul>
+  <li><strong>React</strong>: Biblioteca para construção da interface do usuário.</li>
+  <li><strong>Redux</strong>: Gerenciamento de estado global.</li>
+  <li><strong>React-Router</strong>: Gerenciamento de rotas no frontend.</li>
+  <li><strong>Bootstrap</strong> e <strong>Font Awesome</strong>: Estilização e ícones.</li>
+  <li><strong>Redux Middleware</strong>: Uso de <code>redux-promise</code>, <code>redux-multi</code> e <code>redux-thunk</code> para lidar com ações assíncronas e múltiplas ações.</li>
+</ul>
 
-###
+<h2>✨ Funcionalidades</h2>
+<ul>
+  <li>Adicionar novas tarefas.</li>
+  <li>Listar tarefas com status de concluídas ou pendentes.</li>
+  <li>Marcar tarefas como concluídas ou pendentes.</li>
+  <li>Excluir tarefas.</li>
+  <li>Busca dinâmica para facilitar a organização.</li>
+</ul>
 
-<p align="left">O projeto tem como objetivo adicionar as tarefas do dia-a-dia.  Partindo da criação do back-end para o front-end utilizando os conceitos de CRUD, com a implementação do botão SEARCH e CLEAR SEARCH.</p>
+<h2>📂 Estrutura do Projeto</h2>
+<ul>
+  <li><strong>Backend</strong>: Localizado na pasta <code>backend</code>, contendo a API, configuração do servidor e banco de dados.</li>
+  <li><strong>Frontend</strong>: Localizado na pasta <code>frontend</code>, contendo os componentes React, Redux e estilização.</li>
+</ul>
 
-###
+<h2>🌐 Como Executar o Projeto</h2>
+<ol>
+  <li>Clone o repositório:
+    <pre><code>git clone https://github.com/seu-usuario/todo-app.git</code></pre>
+  </li>
+  <li>Instale as dependências do backend:
+    <pre><code>cd backend
+npm install</code></pre>
+  </li>
+  <li>Inicie o servidor do backend:
+    <pre><code>npm start</code></pre>
+  </li>
+  <li>Instale as dependências do frontend:
+    <pre><code>cd ../frontend
+npm install</code></pre>
+  </li>
+  <li>Inicie o servidor do frontend:
+    <pre><code>npm start</code></pre>
+  </li>
+  <li>Acesse a aplicação em:
+    <pre><code>http://localhost:3000</code></pre>
+  </li>
+</ol>
 
-<p align="left">CRUD - é um acrônimo para as quatro operações básicas de manipulação de dados em um sistema de gerenciamento de banco de dados: Create (Criar), Read (Ler), Update (Atualizar), Delete (Apagar)</p>
+<h2>📌 Contribuições</h2>
+<p>Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.</p>
 
-###
+<h2>🛠️ Melhorias Futuras</h2>
+<ul>
+  <li>Implementação de autenticação de usuários.</li>
+  <li>Adicionar notificações para tarefas.</li>
+  <li>Melhorar a responsividade da interface.</li>
+</ul>
 
-<h3 align="left">🛠 Language and tools</h3>
+<h2>📧 Contato</h2>
+<p>Entre em contato pelo <a href="https://www.linkedin.com/in/brunodutraho/">LinkedIn</a> ou envie um e-mail para <strong>seu-email@email.com</strong>.</p>
 
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="express logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" height="40" alt="webpack logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
-</div>
-
-###
+<p><strong>#React #NodeJS #MongoDB #Redux #TodoApp #DesenvolvimentoWeb</strong></p>
