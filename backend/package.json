@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/loader.js",
   "scripts": {
-    "dev": "nodemon",
+    "start": "nodemon",
     "production": "pm2 start src/loader.js --name todo-app"
   },
   "keywords": [],
@@ -11,10 +11,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "body-parser": "1.15.2",
-    "express": "4.14.0",
-    "mongoose": "4.7.0",
-    "node-restful": "0.2.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
     "pm2": "2.1.5"
   },
   "devDependencies": {

@@ -1,6 +1,9 @@
-const Todo = require('./todo')
+const mongoose = require('mongoose');
 
-Todo.methods(['get', 'post', 'put', 'delete'])
-Todo.updateOptions({new: true, runValidators: true}) 
+const todoSchema = new mongoose.Schema({
+    description: { type: String, required: true },
+    done: { type: Boolean, required: true, default: false },
+    createdAt: { type: Date, default: Date.now },
+});
 
-module.exports = Todo
+module.exports = mongoose.model('Todo', todoSchema);
