@@ -1,19 +1,19 @@
-const port = process.env.PORT || 4000; 
-
 const express = require('express');
-const server = express();
+const helmet = require('helmet'); // Adicionado para segurança
+const morgan = require('morgan'); // Adicionado para logs HTTP
 const allowCors = require('./cors');
 
-server.use(express.urlencoded({ extended: true }));
-server.use(express.json());
-server.use(allowCors);
+const createServer = () => {
+    const server = express();
 
-const serverInstance = server.listen(port, '0.0.0.0', () => {
-    console.log(`BACKEND is running on port ${port}.`);
-});
+    // Middlewares
+    server.use(helmet());
+    server.use(morgan('dev'));
+    server.use(express.urlencoded({ extended: true }));
+    server.use(express.json());
+    server.use(allowCors);
 
-// Aumentar os timeouts
-serverInstance.keepAliveTimeout = 120000; // 120 segundos
-serverInstance.headersTimeout = 120000; // 120 segundos
+    return server;
+};
 
-module.exports = server;
+module.exports = createServer;
