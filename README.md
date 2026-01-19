@@ -1,79 +1,74 @@
-<h1>Todo App 📝</h1>
+# 📝 Todo App – Aplicação Full Stack
 
-<img src="https://i.ibb.co/0ZLq1YF/todolist.png" alt="Todo App" width="600">
-
-<p>
-  Bem-vindo ao <strong>Todo App</strong>, uma aplicação de gerenciamento de tarefas desenvolvida com uma arquitetura full-stack moderna. Este projeto foi criado para demonstrar a integração entre um backend robusto e um frontend dinâmico, utilizando tecnologias amplamente adotadas no mercado.
+<p align="center">
+  <img src="https://i.ibb.co/0ZLq1YF/todolist.png" alt="Todo App" width="800">
 </p>
 
-<h2>🚀 Tecnologias Utilizadas</h2>
-<h3>Backend</h3>
-<ul>
-  <li><strong>Node.js</strong> com <strong>Express</strong>: API RESTful para operações de CRUD.</li>
-  <li><strong>MongoDB</strong>: Banco de dados NoSQL para armazenamento das tarefas.</li>
-  <li><strong>Mongoose</strong>: Modelagem de dados no MongoDB.</li>
-  <li><strong>Cors</strong>: Configuração para permitir o acesso do frontend ao backend.</li>
-</ul>
+O **Todo App** é uma aplicação de gerenciamento de tarefas desenvolvida com uma **arquitetura full stack moderna**, criada para demonstrar na prática a integração entre um **backend robusto** e um **frontend dinâmico**.
 
-<h3>Frontend</h3>
-<ul>
-  <li><strong>React</strong>: Biblioteca para construção da interface do usuário.</li>
-  <li><strong>Redux</strong>: Gerenciamento de estado global.</li>
-  <li><strong>React-Router</strong>: Gerenciamento de rotas no frontend.</li>
-  <li><strong>Bootstrap</strong> e <strong>Font Awesome</strong>: Estilização e ícones.</li>
-  <li><strong>Redux Middleware</strong>: Uso de <code>redux-promise</code>, <code>redux-multi</code> e <code>redux-thunk</code> para lidar com ações assíncronas e múltiplas ações.</li>
-</ul>
+O projeto simula um cenário real de organização de tarefas, explorando conceitos essenciais do desenvolvimento web como **CRUD, gerenciamento de estado, consumo de API e organização de código**, utilizando tecnologias amplamente adotadas pelo mercado.
 
-<h2>✨ Funcionalidades</h2>
-<ul>
-  <li>Adicionar novas tarefas.</li>
-  <li>Listar tarefas com status de concluídas ou pendentes.</li>
-  <li>Marcar tarefas como concluídas ou pendentes.</li>
-  <li>Excluir tarefas.</li>
-  <li>Busca dinâmica para facilitar a organização.</li>
-</ul>
+---
 
-<h2>📂 Estrutura do Projeto</h2>
-<ul>
-  <li><strong>Backend</strong>: Localizado na pasta <code>backend</code>, contendo a API, configuração do servidor e banco de dados.</li>
-  <li><strong>Frontend</strong>: Localizado na pasta <code>frontend</code>, contendo os componentes React, Redux e estilização.</li>
-</ul>
+## 🚀 Tecnologias Utilizadas
 
-<h2>🌐 Como Executar o Projeto</h2>
-<ol>
-  <li>Clone o repositório:
-    <pre><code>git clone https://github.com/seu-usuario/todo-app.git</code></pre>
-  </li>
-  <li>Instale as dependências do backend:
-    <pre><code>cd backend
-npm install</code></pre>
-  </li>
-  <li>Inicie o servidor do backend:
-    <pre><code>npm start</code></pre>
-  </li>
-  <li>Instale as dependências do frontend:
-    <pre><code>cd ../frontend
-npm install</code></pre>
-  </li>
-  <li>Inicie o servidor do frontend:
-    <pre><code>npm start</code></pre>
-  </li>
-  <li>Acesse a aplicação em:
-    <pre><code>http://localhost:3000</code></pre>
-  </li>
-</ol>
+### 🔧 Backend
+- **Node.js** com **Express** — API RESTful para operações de CRUD  
+- **MongoDB** — Banco de dados NoSQL para persistência das tarefas  
+- **Mongoose** — Modelagem e validação dos dados  
+- **Cors** — Comunicação segura entre frontend e backend  
 
-<h2>📌 Contribuições</h2>
-<p>Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.</p>
+### 🎨 Frontend
+- **React** — Construção da interface do usuário  
+- **Redux** — Gerenciamento de estado global da aplicação  
+- **React Router** — Controle de rotas no frontend  
+- **Bootstrap** e **Font Awesome** — Estilização responsiva e ícones  
+- **Redux Middleware** — Uso de `redux-thunk`, `redux-promise` e `redux-multi` para ações assíncronas e múltiplas ações  
 
-<h2>🛠️ Melhorias Futuras</h2>
-<ul>
-  <li>Implementação de autenticação de usuários.</li>
-  <li>Adicionar notificações para tarefas.</li>
-  <li>Melhorar a responsividade da interface.</li>
-</ul>
+---
 
-<h2>📧 Contato</h2>
-<p>Entre em contato pelo <a href="https://www.linkedin.com/in/brunodutraho/">LinkedIn</a> ou envie um e-mail para <strong>seu-email@email.com</strong>.</p>
+## ✨ Funcionalidades
 
-<p><strong>#React #NodeJS #MongoDB #Redux #TodoApp #DesenvolvimentoWeb</strong></p>
+- ➕ Adicionar novas tarefas  
+- 📋 Listar tarefas concluídas e pendentes  
+- ✅ Marcar tarefas como concluídas ou não concluídas  
+- 🗑️ Excluir tarefas  
+- 🔍 Busca dinâmica para facilitar a organização  
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+todo-app/
+├── backend/
+│   ├── config/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── reducers/
+│   │   └── store/
+│
+└── README.md
+
+1️⃣ Clone o repositório
+git clone https://github.com/seu-usuario/todo-app.git
+
+2️⃣ Backend
+cd backend
+npm install
+npm start
+
+3️⃣ Frontend
+cd ../frontend
+npm install
+npm start
+
+4️⃣ Acesse no navegador
+http://localhost:3000
+
+
